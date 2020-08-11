@@ -7,9 +7,8 @@ import matplotlib.pyplot as plt
 import scipy
 from PIL import Image
 from scipy import ndimage
-# from dnn_app_utils_v3 import *
-from python_prac.dnn_app_utils_v3 import *
-from python_prac.week_4_step_by_step import *
+from dnn_app_utils_v3 import *
+# from python_prac.week_4_step_by_step import *
 plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
